@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+body {
+  margin: 0 auto 0;
+  background-color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Poppins", "Alegreya", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

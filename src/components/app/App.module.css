@@ -1,0 +1,54 @@
+.films_cont {
+  max-width: 1200px;
+  margin: 0 auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-flow: row;
+  gap: 30px;
+}
+
+.film {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 30px;
+  background-color: rgb(219, 232, 243);
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 37px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.button {
+  box-sizing: border-box;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 27px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: aliceblue;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(201, 222, 239);
+}
