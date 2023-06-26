@@ -1,4 +1,4 @@
-.header {
+.footer {
   width: 100%;
   padding: 30px;
   box-sizing: border-box;
@@ -12,14 +12,4 @@
   text-align: center;
   text-transform: uppercase;
   color: aqua;
-}
-
-@media (max-width: 710px) {
-  .header {
-    padding: 20px;
-  }
-  .title {
-    font-size: 20px;
-    line-height: 25px;
-  }
 }

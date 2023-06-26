@@ -1,0 +1,67 @@
+.films_cont {
+  max-width: 1200px;
+  margin: 0 auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-flow: row;
+  gap: 30px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.flex_person {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button_pag {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 15px;
+  border: 1px solid #F2841F;
+  border-radius: 30px;
+  padding: 10px;
+  max-width: 100px;
+  background-color: #200505;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  height: min-content;
+  color: #F2841F;
+}
+
+.button_pag:hover {
+  background-color: #F2841F;
+  color: #200505;
+}
+
+.button_pag:disabled {
+  color: white;
+  background-color: #a3a3a3;
+
+}
+
+.count {
+  color: #F2841F;
+  padding: 10px;
+  border: 1px solid #F2841F;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.pag {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center
+}
+
+@media (max-width: 710px) {
+  .films_cont {
+    grid-template-columns: 1fr;
+  }
+}

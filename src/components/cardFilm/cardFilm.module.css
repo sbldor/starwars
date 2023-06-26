@@ -1,0 +1,53 @@
+.film {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #F2841F;
+  border-radius: 30px;
+  background-color: #200505;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  padding-top: 5px;
+  min-height: 245.5px;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: block;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 5px;
+  color: #F2841F;
+}
+
+.button {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 27px;
+  border: 1px solid #F2841F;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100%;
+  background-color: #200505;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  height: min-content;
+  color: #F2841F;
+}
+
+.button:hover {
+  background-color: #F2841F;
+  color: #200505;
+}
+
+/* @media (max-width: 710px) {
+  .film:nth-child(1) {
+    display: none;
+  }
+} */
