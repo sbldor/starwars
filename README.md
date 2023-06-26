@@ -1,5 +1,7 @@
 # Тестовое задание STARWARS
 
+[SWAPI Explorer](https://studio.apollographql.com/public/star-wars-swapi/variant/current/home)
+
 ## Используемые библиотеки
 * Vite
 * Apollo client
